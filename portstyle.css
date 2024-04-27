@@ -30,7 +30,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: #9dc3f5e6;
+    background-color: #244855;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     z-index: 10;
 }
@@ -38,12 +38,12 @@ header {
     display: flex; 
 }
 .logo {
-    color: #27ae60;
+    color: #E64833;
     font-weight: 700;
     font-size: 25px;
 }
 .logo span {
-    color: #273e60;
+    color: #fbe9d0;
 }
 .menu li {
    margin: 0 15px;
@@ -52,7 +52,7 @@ header {
 .menu li a {
     font-size: 14px;
     text-decoration: 0;
-    color: #999;
+    color: #fbe9d0;
     position: relative;
 }
 .menu li a::before {
@@ -63,7 +63,7 @@ header {
     width: 0;
     height: 2px;
     border-radius: 6px;
-    background-color: #27ae60;
+    background-color: #E64833;
     transition: 0.5s;
 }
 .menu li a:hover::before {
@@ -77,22 +77,23 @@ header {
     width: 0;
     height: 2px;
     border-radius: 6px;
-    background-color: #274bae;
+    background-color: #90AEAD;
     transition: 0.5s;
 }
 .menu li a:hover::after {
     width: 100%;
 }
 .menu li a:hover {
-    color: #000;
+    color: #90AEAD;
 }
 /* home CSS */
 #home {
+    background: #fbe9d0;
     margin-top: -10px;
     display: flex;
     align-items: center;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
     height: calc(100vh - 50px);
     justify-content: space-between;
 }
@@ -105,7 +106,7 @@ header {
 }
 #home .left h4 {
     font-size: 20px;
-    color: #27ae60;
+    color: #874F41;
 }
 #home .left h1 {
     font-size: 40px;
@@ -116,7 +117,7 @@ header {
 
 }
 #home .left h3 span {
-    color: #27ae60;
+    color: #244855;
 
 }
 
@@ -125,7 +126,7 @@ header {
      margin-left: 50px;
      width: fit-content;
      padding: 5px 10px;
-     background-color: #000;
+     background-color: #244855;
      border: 0;
      transition: 0.5s;
      position: relative;
@@ -139,12 +140,13 @@ header {
     transition: 0.5s;
 }
 
-  #cv {
+ #cv {
     text-decoration: 0;
     color: #fff;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.5s;
+    
 }
  button::before {
     position: absolute;
@@ -154,7 +156,7 @@ header {
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-color: #27ae60;
+    background-color: #E64833;
 }
 button:hover a{
    letter-spacing: 4px;
@@ -186,20 +188,20 @@ align-items: center;
 width: 4rem;
 height: 4rem;
 background: transparent;
-border: .2rem solid #9dc3f5e6;
+border: .2rem solid #E64833;
 border-radius: 50%;
 font-size: 2rem;
-color:#9dc3f5e6 ;
+color:#E64833 ;
 margin: 3rem 1rem 1rem ;
 text-decoration: none;
 }
 .social-media a:hover {
-background: #9dc3f5e6;
-color: #ffffff;
-box-shadow: 0 0 1rem #9dc3f5e6 
+background: #E64833;
+color: #fbe9d0;
+box-shadow: 0 0 1rem #E64833 
   }
   .about{
-    background: #e9f0fae6;
+  
     margin-top: -10px;
     display: flex;
     align-items: center;
@@ -227,7 +229,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
 }
 
 #about .about-cnt h2 span {
-    color: #27ae60;
+    color: #E64833;
 
 }
 #about .about-cnt h3 {
@@ -240,7 +242,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
     color: #999;
 }
 .services{
-    background: #589bfae6;
+    background: #90AEAD;
     margin-top: 1px;
     
     align-items: center;
@@ -255,7 +257,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
     margin-bottom: 30px;
   }
   .service  span {
-    color: #27ae60;
+    color: #E64833;
   }
     
 
@@ -278,7 +280,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
   .services-container .serv-box{
     flex: 1 1 20rem;
    
-    background: #27ae60;
+    background: #fbe9d0;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
@@ -287,18 +289,18 @@ box-shadow: 0 0 1rem #9dc3f5e6
   }
   .serv-box i{
     font-size: 7rem;
-    color: #274bae;
+    color: #244855;
   }
   .serv-box p{
     font-size: 1.6rem;
     margin: 1 rem 0 3rem;
   }
  .serv-box:hover{
-    border-color:red ;
+    border-color:#f13a22 ;
     transform: scale(1.02);
   }
   .portfolio{
-    background: #273e60;
+    background: #fbe9d0;
     height: calc(100vh - 50px);
     margin-top: 1px;
   }
@@ -316,7 +318,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
   .portfolio-container .portfolio-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem red;
+    box-shadow: 0 0 1rem #E64833;
     overflow: hidden;
     display: flex;
     margin-bottom: 20px;
@@ -335,7 +337,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
     bottom: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(rgb(255, 255, 255),rgb(255, 0, 0));
+    background: linear-gradient(rgb(255, 255, 255),#E64833);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -370,7 +372,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
 
 .portfolio-layer a i {
     font-size: 2rem;
-    color: #27ae60;
+    color: #244855;
     
 }
 .contact{
@@ -391,8 +393,8 @@ box-shadow: 0 0 1rem #9dc3f5e6
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: #274bae;
-    background: #27ae60;
+    color: #E64833;
+    background: #90AEAD;
     border-radius: .8rem;
     margin: .7rem 0;
 
@@ -408,9 +410,9 @@ box-shadow: 0 0 1rem #9dc3f5e6
     margin-top: 2rem;
     cursor: pointer;
     color: #fff;
-    background-color: #27ae60;
+    background-color: #90AEAD;
     width: fit-content;
-    border: .2rem solid #27ae60;
+    border: .2rem solid #874F41;
     font-weight: bold;
     text-transform: uppercase;
     transition: 0.5s;
@@ -425,7 +427,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
     height: 100%;
     width: 100%;
     z-index: -1;
-    background-color: #27ae60;
+    background-color: #244855;
 }
 .btn:hover {
    letter-spacing: 4px;
@@ -436,7 +438,7 @@ box-shadow: 0 0 1rem #9dc3f5e6
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: #27ae60;
+    background: #244855;
 }
 .footer-text p{
     font-size: 1.6rem;
@@ -446,7 +448,7 @@ display: inline-flex;
 justify-content: center;
 align-items: cessssnter;
 padding: .8rem;
-background: #274bae;
+background: #fbe9d0;
 border-radius: .8rem;
 transition: .5s ease;
 text-decoration: 0;
@@ -457,7 +459,7 @@ text-decoration: 0;
     color:#000000
 }
 .footer-icon a:hover {
-    box-shadow: 0 0 5rem #27ae60;
+    box-shadow: 0 0 5rem #fbe9d0;
 }
 
   .serv-box {
