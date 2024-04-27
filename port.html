@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My site</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="portstyle.css">
+
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <p><span>Assia </span>Tourabi</p>
+        </div>
+        <ul class="menu">
+            <li><a href="#home">Acceuil</a></li>
+            <li><a href="#about">A Propos</a></li>
+            <li><a href="#services">My services</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- menu responsive -->
+        <div class="toggle_menu"></div>
+    </header>
+    <section id="home">
+        <div class="left">
+            <h4>Hello,I am </h4>
+            <h1>Assia Tourabi</h1>
+            <h3>And I am a <span>Software engineer</span></h3>
+            
+            
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                
+            </div> 
+            <button onclick="window.open('docs/ResumeAssia_TOURABI_Final.pdf', '_blank')" id="cv">Voir CV</button>
+        </div>
+        
+        <div class="right">
+            
+        </div>
+
+        
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/assiaPhoto.png" alt="error">
+        </div>
+        <div class="about-cnt">
+            <h2 class="heading">About <span>Me</span></h2>
+            
+            <h3>Software engineer</h3>
+            
+            <p>Etudiante en deuxieme année cycle d'ingenieur.</p>
+            
+            <button><a href="#">see more</a></button>
+        </div>
+    </section>   
+
+    <section class="services" id="services">
+        <h2 class="service"> My <span>services</span></h2>
+
+       <div class="services-container">
+           <div class="serv-box">
+                 
+                 <i class='bx bx-code-alt' ></i>
+                 <h2 class="service-title">web developement</h2>
+                 <p>En tant que développeur web passionné, je m'engage à créer des sites web modernes et fonctionnels qui captivent les utilisateurs. Mon approche centrée sur l'utilisateur et mon expertise technique me permettent de concevoir des expériences web uniques.  
+                    
+                 </p>
+                 <button><a href="#">see more</a></button>
+           </div>
+           <div class="serv-box">
+            <i class='bx bx-devices' ></i>
+            <h2 class="service-title">app developement</h2>
+            <p>Dans le domaine du développement d'applications, je suis spécialisé dans la création d'applications mobiles innovantes et performantes. Que ce soit pour Android, iOS ou les deux plateformes.</p>
+            <button><a href="#">see more</a></button>
+      </div>
+      
+      </div>
+    </section>   
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="service"> Latest <span>project</span></h2>
+
+       <div class="portfolio-container">
+           <div class="portfolio-box">
+            <img src="images/odooraLogo.png" alt="">
+           <div class="portfolio-layer">
+            <h4>Site e-commerce</h4>
+            <p>une plateforme de e-commerce pour les parfums, en utilsant jee, bootstrao, servlets</p>
+            <a href="#"><i class='bx bx-link-external' ></i></a>       
+        </div>
+        
+      </div>
+
+      <div class="portfolio-box">
+                 
+        <img src="images/logo.png" alt="">
+  
+  <div class="portfolio-layer">
+   <h4>Systeme de gestion Stagiaires</h4>
+   <p> une application web de gestion des stagiaires qui permet de gérer efficacement les informations des stagiaires, en utilisants Sbring boot, bootstrap.</p>
+   <a href="#"><i class='bx bx-link-external' ></i></a>       
+</div>
+</div>
+<div class="portfolio-box">
+                 
+    <img src="images/diaPedct.png" alt="">
+
+<div class="portfolio-layer">
+<h4>Systeme de prediction de diabetes</h4>
+<p>système de prédiction de la diabète qui utilise des données médicales pour estimer le risque de développer la maladie chez un individu. </p>
+<a href="#"><i class='bx bx-link-external' ></i></a>       
+</div>
+</div>
+      
+      </div>
+    </section>   
+  
+    <section class="contact" id="contact">
+        <h2 class="service"> Contactez <span>moi!</span></h2>
+    
+        <form action="contact.php" method="POST">
+            <div class="input-box">
+                <input type="text" name="full_name" placeholder="Nom complet" required>
+                <input type="email" name="email" placeholder="Adresse email" required>
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" placeholder="Numéro de téléphone" required>
+                <input type="text" name="subject" placeholder="Objet du message" required>
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Votre message" required></textarea>
+            <input type="submit" value="Envoyer le message" class="btn">
+        </form>
+        
+    
+        <footer class="footer">
+            <div class="footer-text">
+                <p>
+                    Copyright &copy; 2023 by Assia Tourabi | Tous droits réservés.
+                </p>
+            </div>
+            <div class="footer-icon">
+                <a href="#home"><i class='bx bx-chevrons-up'></i></a>
+            </div>
+        </footer>
+    </section>
+    
+
+<script src="js/script.js"></script>
+</body>
+</html>
